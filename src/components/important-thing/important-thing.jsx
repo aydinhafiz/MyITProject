@@ -1,5 +1,4 @@
 import React from "react";
-import { SImportantThing } from "./important-thing";
 import styled from "styled-components";
 
 const SImportant = styled.div`
