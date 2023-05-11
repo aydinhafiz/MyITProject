@@ -22,7 +22,7 @@ function SocialMediaInfo() {
         <a href="https://twitter.com/WakeyProject" className="twitter-link">
           <img src={twitter} className="twitter" alt="" />
         </a>
-        <a href="#" className="instagram-link">
+        <a href="https://twitter.com/WakeyProject" className="instagram-link">
           <img src={instagram} className="instagram" alt="" />
         </a>
       </div>
