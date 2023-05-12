@@ -5,19 +5,14 @@ import blitz from "../../../assets/blitz.png";
 function ManyImportantThings() {
   const dataImportantThings = [
     {
-      img: { blitz },
-      importantDescription: "Snappy Process",
-      importantparagraph: "Snappy Process",
+      img: blitz,
+      importantDescription: "MİNZ",
+      importantparagraph: "MİNZ",
     },
     {
-      img: "../../../assets/blitz.png",
+      img: "",
       importantDescription: "Snappy Proces",
-      importantparagraph: "Snappy Process",
-    },
-    {
-      img: "../../../assets/blitz.png",
-      importantDescription: "Snappy Proce",
-      importantparagraph: "Snappy Process",
+      importantparagraph: "Wasser Melone",
     },
   ];
   return (

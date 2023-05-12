@@ -4,8 +4,12 @@ import styled from "styled-components";
 const SImportant = styled.div`
   max-width: 350px;
   margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   .important-img-bar {
+    margin-right: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +39,7 @@ const SImportant = styled.div`
     font-size: 16px;
     line-height: 26px;
 
+    margin-left: 20px;
     color: #837d88;
     margin-top: 16px;
   }
