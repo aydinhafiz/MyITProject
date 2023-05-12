@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const SHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 31px;
-  margin-top: 31px;
-
+  background-color: #2000cd;
+  padding: 35px;
   .logo-bar {
     margin-left: 168px;
     width: 111.22px;
@@ -21,9 +20,12 @@ export const SHeader = styled.div`
     text-align: center;
     letter-spacing: 1.5px;
 
-    color: #837d88;
+    color: #ffff;
     margin-right: 26px;
     cursor: pointer;
+    :hover {
+      color: #a060ff;
+    }
   }
   .options :nth-child(2) {
     font-family: "Karla";
@@ -34,9 +36,12 @@ export const SHeader = styled.div`
     text-align: center;
     letter-spacing: 1.5px;
 
-    color: #837d88;
+    color: #ffff;
     margin-right: 26px;
     cursor: pointer;
+    :hover {
+      color: #a060ff;
+    }
   }
   .options :nth-child(3) {
     font-family: "Karla";
@@ -47,9 +52,12 @@ export const SHeader = styled.div`
     text-align: center;
     letter-spacing: 1.5px;
 
-    color: #837d88;
+    color: #ffff;
     margin-right: 33px;
     cursor: pointer;
+    :hover {
+      color: #a060ff;
+    }
   }
   .options :nth-child(4) {
     font-family: "Karla";
@@ -60,11 +68,29 @@ export const SHeader = styled.div`
     text-align: center;
     letter-spacing: 1.5px;
 
-    color: #2c2830;
+    background: #ffa84e;
+
+    color: #49566d;
     margin-right: 165px;
-    background: #ffffff;
     border: 1.5px solid #2c2830;
     padding: 13px 28.5px 12px 28.5px;
     cursor: pointer;
+  }
+
+  .options :nth-child(4):hover {
+    background: linear-gradient(
+      135deg,
+      #a060ff 0%,
+      #cb30e3 49.21%,
+      #ffa84e 100%
+    );
+    border: 1.5px solid #2c2830;
+    color: #ffffff;
+    transition: 1s;
+  }
+
+  .logo-img {
+    width: auto;
+    height: 30px;
   }
 `;

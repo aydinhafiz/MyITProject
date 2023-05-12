@@ -49,5 +49,17 @@ export const SContentMain = styled.div`
     border: 1.5px solid #ffffff;
     padding: 13px 28.5px 12px 28.5px;
     background: none;
+    :hover {
+      cursor: pointer;
+      background: #ffffff;
+      color: #2c2830;
+      transition: 1s;
+    }
+  }
+
+  .companyimg {
+    width: auto;
+    height: 500px;
+    margin-left: 40px;
   }
 `;

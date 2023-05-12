@@ -1,21 +1,19 @@
 import React from "react";
-import familyİmg from "../../assets/family.jpg";
+import mainLogo from "../../assets/wakey-main-logo.png.png";
 import { SContentMain } from "./header-content.styles";
 
 function HeaderContent() {
   return (
     <SContentMain>
       <div className="description-side">
-        <h2 className="title-humanizing">Humanizing your insurance.</h2>
+        <h2 className="title-humanizing">The Key to Being Awake</h2>
         <p className="description-humanizing">
-          Get your life insurance coverage easier and faster. We blend our
-          expertise and technology to help you find the plan that’s right for
-          you. Ensure you and your loved ones are protected.
+          WRİTE TEXT HERE, WRİTE TEXT HERE, WRİTE TEXT HERE,
         </p>
-        <button className="view-plans-button">VIEW PLANS</button>
+        <button className="view-plans-button">ÜBER UNS</button>
       </div>
       <div className="img-side">
-        <img src={familyİmg} alt="" className="companyimg" />
+        <img src={mainLogo} alt="" className="companyimg" />
       </div>
     </SContentMain>
   );
