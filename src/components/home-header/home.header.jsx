@@ -1,7 +1,6 @@
 import React from "react";
 import { SHeader } from "./home-header.styles";
 ///////////////////////////////IMAGES/////////////////////
-import insure from "../../assets/insure-logo.svg";
 import wakeywrite from "../../assets/wakey-project-logo.png";
 //////////////////////////////////////////////////////////
 
