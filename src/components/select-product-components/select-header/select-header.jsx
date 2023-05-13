@@ -1,13 +1,12 @@
 import React from "react";
-import { SHeader } from "./home-header.styles";
-///////////////////////////////IMAGES/////////////////////
-import wakeywrite from "../../assets/wakey-project-logo.png";
 import { Link } from "react-router-dom";
-//////////////////////////////////////////////////////////
+import { SSelectHeader } from "./select-header.styles";
 
-function Header() {
+import wakeywrite from "../../../assets/wakey-project-logo.png";
+
+function SelectHeader() {
   return (
-    <SHeader>
+    <SSelectHeader>
       <div className="logo-bar">
         <img src={wakeywrite} alt="" className="logo-img" />
       </div>
@@ -15,11 +14,11 @@ function Header() {
         <span className="options-item">GEPA</span>
         <span className="options-item">GESCHMACK</span>
         <span className="options-item">ÜBER UNS</span>
-        <Link to={"/order"}>
-          <span className="options-item">BESTELLEN</span>
+        <Link to={"/"}>
+          <span className="options-item">HOME</span>
         </Link>
       </div>
-    </SHeader>
+    </SSelectHeader>
   );
 }
-export default Header;
+export default SelectHeader;

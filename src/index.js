@@ -3,10 +3,16 @@ import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home";
+import SelectProduct from "./routes/select-product";
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/order",
+    element: <SelectProduct />,
   },
 ]);
 

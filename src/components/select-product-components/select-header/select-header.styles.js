@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
-export const SHeader = styled.div`
+export const SSelectHeader = styled.div`
+  background: #2000cd;
   display: flex;
   justify-content: space-between;
   background-color: #2000cd;
   padding: 35px;
+
   .logo-bar {
     margin-left: 168px;
     width: 111.22px;
