@@ -2,58 +2,41 @@ import React from "react";
 import styled from "styled-components";
 
 const SImportant = styled.div`
-  max-width: 350px;
-  margin-right: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  .important-img-bar {
-    margin-right: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  max-width: 1110px;
+  .img-background {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background: #96a9c6;
     width: 86px;
     height: 86px;
-    background-color: #96a9c6;
     border-radius: 50%;
     margin-bottom: 32px;
   }
-
-  .important-description {
-    font-family: "DM Serif Display";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 38px;
-    letter-spacing: -0.388889px;
-
-    color: #2c2830;
+  .product-description {
+    flex-wrap: wrap;
+    max-width: 350px;
   }
-
-  .important-paragraph {
-    font-family: "Karla";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-
-    margin-left: 20px;
-    color: #837d88;
-    margin-top: 16px;
+  .product-title {
+    margin-bottom: 16px;
+  }
+  .product-img {
+    width: auto;
+    height: 60px;
   }
 `;
 
 function ImportantThing(props) {
-  const { importantDescription, paragraph, productImage } = props;
+  const { description, paragraph, productImage } = props;
   return (
     <SImportant>
-      <div className="important-img-bar">
-        <img className="important-img" src={productImage} alt="" />
+      <div className="img-background">
+        <img src={productImage} alt="" className="product-img" />
       </div>
-      <span className="important-description">{importantDescription}</span>
-      <p className="important-paragraph">{paragraph}</p>
+      <h2 className="product-title">{description}</h2>
+      <p className="product-description">{paragraph}</p>
     </SImportant>
   );
 }

@@ -11,8 +11,8 @@ function MainContent() {
 
       <div className="find-more-bar">
         <img src="" alt="" className="design-img" />
-        <h2 className="describle">Find out more about how we work</h2>
-        <button className="how-we-work-button">HOW WE WORK</button>
+        <h2 className="describle">Für weitere İnformationen</h2>
+        <button className="how-we-work-button">Bestellung</button>
       </div>
     </SMainContent>
   );

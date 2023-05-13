@@ -8,3 +8,7 @@ body {
   font-family: "Karla", sans-serif;
   background: #ffffff;
 }
+
+.home-container {
+  width: 100%;
+}

@@ -1,18 +1,22 @@
 import React from "react";
 import { SManyImportantThings } from "./many-important-things.styles";
 import ImportantThing from "../../important-thing/important-thing.jsx";
-import blitz from "../../../assets/blitz.png";
+import minz from "../../../assets/minz-picture.png";
+import wassermelone from "../../../assets/wassermelone-picture.png";
+
 function ManyImportantThings() {
   const dataImportantThings = [
     {
-      img: blitz,
+      img: minz,
       importantDescription: "MİNZ",
-      importantparagraph: "MİNZ",
+      importantparagraph:
+        "Minz-Kaugummis sind auch dafür bekannt, einen frischen Atem zu fördern, da sie dazu beitragen können, Mundgeruch zu neutralisieren und das Gefühl von Sauberkeit und Frische im Mund zu vermitteln.",
     },
     {
-      img: "",
-      importantDescription: "Snappy Proces",
-      importantparagraph: "Wasser Melone",
+      img: wassermelone,
+      importantDescription: "WASSERMELONE",
+      importantparagraph:
+        "Beim Kauen von Wassermelone-Kaugummis entsteht ein süßes und erfrischendes Gefühl im Mund, das oft als angenehm empfunden wird. Der Geschmack kann auch eine leichte Säurenote enthalten, die das Erlebnis noch interessanter macht.",
     },
   ];
   return (

@@ -60,5 +60,16 @@ export const SMainContent = styled.div`
     height: 50px;
     cursor: pointer;
     margin-right: 75px;
+    :hover {
+      background: linear-gradient(
+        135deg,
+        #a060ff 0%,
+        #cb30e3 49.21%,
+        #ffa84e 100%
+      );
+      border: 1.5px solid #2c2830;
+      color: #ffffff;
+      transition: 1s;
+    }
   }
 `;
