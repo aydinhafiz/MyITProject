@@ -6,6 +6,7 @@ export const SSelectHeader = styled.div`
   justify-content: space-between;
   background-color: #2000cd;
   padding: 35px;
+  margin-bottom: 136px;
 
   .logo-bar {
     margin-left: 168px;

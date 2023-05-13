@@ -8,7 +8,9 @@ function SelectHeader() {
   return (
     <SSelectHeader>
       <div className="logo-bar">
-        <img src={wakeywrite} alt="" className="logo-img" />
+        <Link to={"/"}>
+          <img src={wakeywrite} alt="" className="logo-img" />
+        </Link>
       </div>
       <div className="options">
         <span className="options-item">GEPA</span>

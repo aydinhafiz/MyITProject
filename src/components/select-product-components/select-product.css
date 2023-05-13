@@ -2,4 +2,152 @@
   max-width: width 1110px;
 }
 
+.order-content {
+  display: flex;
+  justify-content: center;
+}
 
+.order-product {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ff7e1b;
+  margin-bottom: 24px;
+}
+
+.product-name {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 48px;
+
+  color: #1d2026;
+  margin-bottom: 32px;
+}
+
+.product-description {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #69707d;
+  margin-bottom: 24px;
+}
+
+.product-price {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #1d2026;
+}
+
+.sale-in-procent {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-left: 23px;
+  color: #ff7e1b;
+  border: none;
+  background: #ffeee2;
+  border-radius: 6px;
+  padding: 7px 11px 0px 8px;
+}
+
+.old-price {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration-line: line-through;
+
+  color: #b6bcc8;
+  margin-bottom: 32px;
+}
+
+.product-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 157px;
+  padding: 25px;
+
+  border-radius: 10px;
+  background: #f6f8fd;
+}
+
+.product-numbers {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #1d2026;
+}
+
+.minus {
+  width: auto;
+  height: 6px;
+  cursor: pointer;
+}
+
+.plus {
+  width: auto;
+  height: 20px;
+  cursor: pointer;
+}
+
+.payment-method {
+  margin-top: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delivery-button-bar {
+  display: flex;
+  align-items: center;
+
+  margin-left: 25px;
+  background: #ff7e1b;
+  box-shadow: 0px 20px 50px -20px #ff7e1b;
+  border-radius: 10px;
+  padding: 19px 76px 18px 77px;
+  cursor: pointer;
+}
+
+.delivery-button {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+  border: none;
+  background: none;
+  margin-left: 8px;
+  cursor: pointer;
+}
