@@ -3,7 +3,6 @@ import { SHeader } from "../components/home-header/home-header.styles";
 import wakeywrite from "../assets/wakey-project-logo.png";
 import { Link } from "react-router-dom";
 import { SUberUnsContainer } from "../components/über-uns/über-uns.styles";
-import wakeyLogo from "../assets/wakey-main-logo.png.png";
 function UberUns() {
   return (
     <SUberUnsContainer>
