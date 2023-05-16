@@ -4,7 +4,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home";
 import SelectProduct from "./routes/select-product";
-import Payment from "./components/payment/payment";
+import Payment from "./routes/payment";
+import UberUns from "./routes/überuns";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/payment",
     element: <Payment />,
+  },
+  {
+    path: "/aboutus",
+    element: <UberUns />,
   },
 ]);
 

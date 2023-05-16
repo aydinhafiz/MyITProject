@@ -1,5 +1,5 @@
 import React from "react";
-import { SAlertContainer } from "./payment.styles";
+import { SAlertContainer } from "../components/payment/payment.styles";
 
 function Payment() {
   return (
@@ -11,7 +11,7 @@ function Payment() {
         aber dieses Produkt
         <br />
         <br />
-        ist nur ein Schulprojekt! :(  
+        ist nur ein Schulprojekt! :(
       </div>
       {/* <div className="Alert">
         <h2 className="mitteilung">

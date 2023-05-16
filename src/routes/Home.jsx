@@ -14,9 +14,9 @@ function Home() {
     <div className="home-container">
       <Header />
       <HeaderContent />
-      
+
       <MainContent />
-      
+
       <SocialMediaInfo />
     </div>
   );

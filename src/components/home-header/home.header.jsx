@@ -14,7 +14,9 @@ function Header() {
       <div className="options">
         <span className="options-item">GEPA</span>
         <span className="options-item">GESCHMACK</span>
-        <span className="options-item">ÜBER UNS</span>
+        <Link to="/aboutus" style={{textDecoration:"none"}}>
+          <span className="options-item">ÜBER UNS</span>
+        </Link>
         <Link to={"/order"}>
           <span className="options-item">BESTELLEN</span>
         </Link>
