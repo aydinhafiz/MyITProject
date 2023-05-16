@@ -8,7 +8,7 @@ import SelectHeader from "../components/select-product-components/select-header/
 import plus from "../assets/plus-img.svg";
 import minus from "../assets/minus-img.png";
 import wakeygumMinze from "../assets/wakeygum-minze.png";
-import wakeygumWassermelone from "../assets/wakeygum-wassermeloneNEW.png";
+import wakeygumWassermelone from "../assets/wakeygum-wassermelone.png";
 import SocialMediaInfo from "../components/social-media-info/social-media-info.jsx";
 import { Link } from "react-router-dom";
 
@@ -59,7 +59,7 @@ function SelectProduct() {
 
           <div className="product-describle-information">
             <h3 className="company-name">Wakey</h3>
-            <h2 className="product-name">Wakeygum Minze</h2>
+            <h2 className="product-name">Wakeygum Melone</h2>
             <p className="product-description">minz USW</p>
             <div className="product-sale">
               <div className="product-sale-info">
@@ -99,7 +99,7 @@ function SelectProduct() {
 
           <div className="product-describle-information">
             <h3 className="company-name">Wakey</h3>
-            <h2 className="product-name">Wakeygum Minze</h2>
+            <h2 className="product-name">Wakeygum Pfefferminze</h2>
             <p className="product-description">minz USW</p>
             <div className="product-sale">
               <div className="product-sale-info">

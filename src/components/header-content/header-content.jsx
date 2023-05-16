@@ -1,6 +1,7 @@
 import React from "react";
 import mainLogo from "../../assets/wakey-main-logo.png.png";
 import { SContentMain } from "./header-content.styles";
+import { Link } from "react-router-dom";
 
 function HeaderContent() {
   return (
@@ -8,9 +9,11 @@ function HeaderContent() {
       <div className="description-side">
         <h2 className="title-humanizing">The Key to Being Awake</h2>
         <p className="description-humanizing">
-          WRİTE TEXT HERE, WRİTE TEXT HERE, WRİTE TEXT HERE,
+          
         </p>
+        <Link to="/aboutus">
         <button className="view-plans-button">ÜBER UNS</button>
+        </Link>
       </div>
       <div className="img-side">
         <img src={mainLogo} alt="" className="companyimg" />

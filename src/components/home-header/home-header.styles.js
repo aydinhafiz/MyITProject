@@ -37,7 +37,7 @@ export const SHeader = styled.div`
     letter-spacing: 1.5px;
 
     color: #ffff;
-    margin-right: 26px;
+    margin-right: 10px;
     cursor: pointer;
     :hover {
       color: #a060ff;

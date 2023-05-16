@@ -8,12 +8,19 @@ function UberUns() {
     <SUberUnsContainer>
       <SHeader>
         <div className="logo-bar">
-          <img src={wakeywrite} alt="" className="logo-img" />
+          <Link to="/">
+            <img src={wakeywrite} alt="" className="logo-img" />
+          </Link>
         </div>
         <div className="options">
-          <span className="options-item">GEPA</span>
+          <Link
+            to="https://www.gepa.de/home.html"
+            style={{ textDecoration: "none" }}
+          >
+            <span className="options-item">GEPA</span>
+          </Link>
           <span className="options-item"></span>
-          <span className="options-item">GESCHMACK</span>
+          <span className="options-item"></span>
           <Link to={"/order"}>
             <span className="options-item">BESTELLEN</span>
           </Link>

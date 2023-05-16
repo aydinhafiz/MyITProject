@@ -12,9 +12,14 @@ function Header() {
         <img src={wakeywrite} alt="" className="logo-img" />
       </div>
       <div className="options">
-        <span className="options-item">GEPA</span>
-        <span className="options-item">GESCHMACK</span>
-        <Link to="/aboutus" style={{textDecoration:"none"}}>
+        <Link
+          to="https://www.gepa.de/home.html"
+          style={{ textDecoration: "none" }}
+        >
+          <span className="options-item">GEPA</span>
+        </Link>
+        <span className="options-item"></span>
+        <Link to="/aboutus" style={{ textDecoration: "none" }}>
           <span className="options-item">ÜBER UNS</span>
         </Link>
         <Link to={"/order"}>
