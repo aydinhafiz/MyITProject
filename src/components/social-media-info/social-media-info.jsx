@@ -1,7 +1,6 @@
 import React from "react";
 ///////////////////////IMAGES/////////////////////////////////////
 import wakeywrite from "../../assets/wakey-project-logo.png"
-import logoInsure from "../../assets/insure-logo.svg";
 import facebook from "../../assets/facebook.svg";
 import twitter from "../../assets/twitter.svg";
 import instagram from "../../assets/instagram.svg";
