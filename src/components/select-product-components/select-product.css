@@ -4,12 +4,16 @@
 
 .order-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .order-product {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 .company-name {
@@ -89,8 +93,8 @@
   align-items: center;
   justify-content: space-between;
 
-  max-width: 157px;
-  padding: 25px;
+  width: 157px;
+  height: 50px;
 
   border-radius: 10px;
   background: #f6f8fd;
@@ -107,12 +111,14 @@
 }
 
 .minus {
+  margin-left: 8px;
   width: auto;
   height: 6px;
   cursor: pointer;
 }
 
 .plus {
+  margin-right: 8px;
   width: auto;
   height: 20px;
   cursor: pointer;
@@ -150,4 +156,52 @@
   background: none;
   margin-left: 8px;
   cursor: pointer;
+}
+
+.product-show-img {
+  width: auto;
+  height: 520px;
+  margin-right: 55px;
+
+  --g: 4px; /* the gap */
+  --b: 12px; /* border thickness*/
+  --c: #669706; /* the color */
+
+  padding: calc(var(--g) + var(--b));
+  --_c: #0000 0 25%, var(--c) 0 50%;
+  --_g1: repeating-linear-gradient(90deg, var(--_c)) repeat-x;
+  --_g2: repeating-linear-gradient(180deg, var(--_c)) repeat-y;
+  background: var(--_g1) var(--_p, 25%) 0, var(--_g2) 0 var(--_p, 125%),
+    var(--_g1) var(--_p, 125%) 100%, var(--_g2) 100% var(--_p, 25%);
+  background-size: 200% var(--b), var(--b) 200%;
+  cursor: pointer;
+  filter: grayscale(50%);
+  transition: 0.3s;
+}
+
+.product-show-img:hover {
+  --_p: 75%;
+  filter: grayscale(0%);
+  width: auto;
+  height: 550px;
+  transition: 1s;
+}
+
+.gesamt-summe {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  border-radius: 8px;
+  margin-left: 30px;
+  height: 50px;
+  width: 150px;
+  color: #faf8f6;
+  background: #172339;
+  /* Dark Blue */
+
+  border: 1px solid #172339;
+  border-radius: 6px;
 }
