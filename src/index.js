@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home";
 import SelectProduct from "./routes/select-product";
+import Payment from "./components/payment/payment";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/order",
     element: <SelectProduct />,
+  },
+  {
+    path: "/payment",
+    element: <Payment />,
   },
 ]);
 

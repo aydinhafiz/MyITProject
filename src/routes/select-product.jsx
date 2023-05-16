@@ -9,6 +9,8 @@ import plus from "../assets/plus-img.svg";
 import minus from "../assets/minus-img.png";
 import wakeygumMinze from "../assets/wakeygum-minze.png";
 import wakeygumWassermelone from "../assets/wakeygum-wassermeloneNEW.png";
+import SocialMediaInfo from "../components/social-media-info/social-media-info.jsx";
+import { Link } from "react-router-dom";
 
 function SelectProduct() {
   ////////////////////////USESTATE SİDE//////////////////////////////////////////////////////////////////////////////////
@@ -48,7 +50,11 @@ function SelectProduct() {
       <div className="order-content">
         <div className="order-product">
           <div className="product-picture-description">
-            <img src={wakeygumMinze} alt="" className="product-show-img" />
+            <img
+              src={wakeygumWassermelone}
+              alt=""
+              className="product-show-img"
+            />
           </div>
 
           <div className="product-describle-information">
@@ -76,17 +82,19 @@ function SelectProduct() {
               </div>
               <button className="gesamt-summe">Summe {price}€</button>{" "}
               {/* Fiyatı ekrana yazdırıyoruz */}
-              <div className="delivery-button-bar">
-                <img src={einkaufswagen} alt="" className="einkaufswagen" />
-                <button className="delivery-button">Zur Kasse</button>
-              </div>
+              <Link to="/payment" style={{ textDecoration: "none" }}>
+                <div className="delivery-button-bar">
+                  <img src={einkaufswagen} alt="" className="einkaufswagen" />{" "}
+                  <button className="delivery-button">Zur Kasse</button>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
 
         <div className="order-product">
           <div className="product-picture-description">
-            <img src={wakeygumWassermelone} alt="" className="product-show-img" />
+            <img src={wakeygumMinze} alt="" className="product-show-img" />
           </div>
 
           <div className="product-describle-information">
@@ -119,14 +127,17 @@ function SelectProduct() {
               </div>
               <button className="gesamt-summe">Summe {priceOrder}€</button>{" "}
               {/* Fiyatı ekrana yazdırıyoruz */}
-              <div className="delivery-button-bar">
-                <img src={einkaufswagen} alt="" className="einkaufswagen" />
-                <button className="delivery-button">Zur Kasse</button>
-              </div>
+              <Link to="/payment" style={{ textDecoration: "none" }}>
+                <div className="delivery-button-bar">
+                  <img src={einkaufswagen} alt="" className="einkaufswagen" />{" "}
+                  <button className="delivery-button">Zur Kasse</button>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
+      <SocialMediaInfo />
     </div>
   );
 }

@@ -12,7 +12,7 @@ function MainContent() {
 
       <div className="find-more-bar">
         <img src="" alt="" className="design-img" />
-        <h2 className="describle">Für weitere İnformationen</h2>
+        <h2 className="describle">Klicken um zu bestellen</h2>
         <Link to={"/order"}>
           <button className="how-we-work-button">Bestellung</button>
         </Link>

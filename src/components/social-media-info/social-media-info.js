@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SSectionEnd = styled.div`
   display: flex;
   justify-content: space-between;
-  background-color: #fafafa;
+  background-color: #2d2641;
   flex: 1;
   height: 100px;
 
@@ -26,5 +26,10 @@ export const SSectionEnd = styled.div`
 
   .social-media:last-child {
     margin-right: 20px;
+  }
+
+  .last-logo {
+    width: auto;
+    height: 30px;
   }
 `;
