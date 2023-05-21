@@ -34,13 +34,13 @@ function SelectProduct() {
 
   const handleclickOrder = () => {
     setProductNumberOrder(productNumberOrder + 1);
-    setPriceOrder(priceOrder + 10); // Adet arttıkça fiyatı 10 birim artırıyoruz (bu değeri ihtiyaçlarınıza göre değiştirebilirsiniz)
+    setPriceOrder(priceOrder + 2.49); // Adet arttıkça fiyatı 10 birim artırıyoruz (bu değeri ihtiyaçlarınıza göre değiştirebilirsiniz)
   };
 
   const minusclickOrder = () => {
     if (productNumberOrder > 0) {
       setProductNumberOrder(productNumberOrder - 1);
-      setPriceOrder(priceOrder - 10); // Adet azaldıkça fiyatı 10 birim azaltıyoruz
+      setPriceOrder(priceOrder - 2.49); // Adet azaldıkça fiyatı 10 birim azaltıyoruz
     }
   };
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -63,10 +63,8 @@ function SelectProduct() {
             <p className="product-description">minz USW</p>
             <div className="product-sale">
               <div className="product-sale-info">
-                <span className="product-price">€1.25</span>
-                <button className="sale-in-procent">50%</button>
+                <span className="product-price">2.49€</span>
               </div>
-              <span className="old-price">€2.50</span>
             </div>
 
             <div className="payment-method">
@@ -103,10 +101,8 @@ function SelectProduct() {
             <p className="product-description">minz USW</p>
             <div className="product-sale">
               <div className="product-sale-info">
-                <span className="product-price">€1.25</span>
-                <button className="sale-in-procent">50%</button>
+                <span className="product-price">2.49€</span>
               </div>
-              <span className="old-price">€2.50</span>
             </div>
 
             <div className="payment-method">
