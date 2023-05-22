@@ -19,13 +19,13 @@ function SelectProduct() {
 
   const handleclick = () => {
     setProductNumber(productNumber + 1);
-    setPrice(price + 10); // Adet arttıkça fiyatı 10 birim artırıyoruz (bu değeri ihtiyaçlarınıza göre değiştirebilirsiniz)
+    setPrice(price + 2.49); // Adet arttıkça fiyatı 10 birim artırıyoruz (bu değeri ihtiyaçlarınıza göre değiştirebilirsiniz)
   };
 
   const minusclick = () => {
     if (productNumber > 0) {
       setProductNumber(productNumber - 1);
-      setPrice(price - 10); // Adet azaldıkça fiyatı 10 birim azaltıyoruz
+      setPrice(price - 2.49); // Adet azaldıkça fiyatı 10 birim azaltıyoruz
     }
   };
   ///////////////////////////USESTATE FOR ORDER 2////////////////////////////////////////////////////////////////
