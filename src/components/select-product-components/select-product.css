@@ -117,11 +117,23 @@
   cursor: pointer;
 }
 
+.minus:hover {
+  width: 20px;
+  height: 8px;
+  transition: 1s;
+}
+
 .plus {
   margin-right: 8px;
   width: auto;
   height: 20px;
   cursor: pointer;
+}
+
+.plus:hover {
+  width: 22px;
+  height: 28px;
+  transition: 1s;
 }
 
 .payment-method {
@@ -164,9 +176,12 @@
   height: 520px;
   margin-right: 55px;
 
-  --g: 4px; /* the gap */
-  --b: 12px; /* border thickness*/
-  --c: #669706; /* the color */
+  --g: 4px;
+  /* the gap */
+  --b: 12px;
+  /* border thickness*/
+  --c: #669706;
+  /* the color */
 
   padding: calc(var(--g) + var(--b));
   --_c: #0000 0 25%, var(--c) 0 50%;

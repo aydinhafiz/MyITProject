@@ -7,6 +7,7 @@ import SelectHeader from "../components/select-product-components/select-header/
 
 import plus from "../assets/plus-img.svg";
 import minus from "../assets/minus-img.png";
+
 import wakeygumMinze from "../assets/wakeygum-minze.png";
 import wakeygumWassermelone from "../assets/wakeygum-wassermelone.png";
 import SocialMediaInfo from "../components/social-media-info/social-media-info.jsx";
@@ -78,7 +79,9 @@ function SelectProduct() {
                 <span className="product-numbers">{productNumber}</span>
                 <img onClick={handleclick} src={plus} alt="" className="plus" />
               </div>
-              <button className="gesamt-summe">Summe {price}€</button>{" "}
+              <button className="gesamt-summe">
+                Summe {price.toFixed(2)}€
+              </button>{" "}
               {/* Fiyatı ekrana yazdırıyoruz */}
               <Link to="/payment" style={{ textDecoration: "none" }}>
                 <div className="delivery-button-bar">
@@ -121,7 +124,9 @@ function SelectProduct() {
                   className="plus"
                 />
               </div>
-              <button className="gesamt-summe">Summe {priceOrder}€</button>{" "}
+              <button className="gesamt-summe">
+                Summe {priceOrder.toFixed(2)}€
+              </button>{" "}
               {/* Fiyatı ekrana yazdırıyoruz */}
               <Link to="/payment" style={{ textDecoration: "none" }}>
                 <div className="delivery-button-bar">
