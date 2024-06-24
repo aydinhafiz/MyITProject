@@ -8,7 +8,6 @@ import HeaderContent from "../components/header-content/header-content";
 import MainContent from "../components/main-content-and-they-components/main-content/main-content";
 import SocialMediaInfo from "../components/social-media-info/social-media-info.jsx";
 
-
 ////////////////////////////////////////////////////////////
 function Home() {
   return (
